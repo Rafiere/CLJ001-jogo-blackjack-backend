@@ -82,7 +82,7 @@
 
 (defn player-decision-continue?
   "Essa função verificará se o usuário deseja ou não mais cartas."
-  [jogador]
+  []
   (= (read-line) "sim"))                                    ;O input do usuário será lido.
 
 (defn dealer-decision-continue?
